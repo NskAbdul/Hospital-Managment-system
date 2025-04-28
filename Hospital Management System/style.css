@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Top Bar */
+.top-bar {
+  background-color: #014d4d;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.top-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.auth-links a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #026969;
+  padding: 15px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo .highlight {
+  color: #6ef5b2;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #a0f0d0;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #028282;
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #028282;
+}
+
+.btn-primary:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-secondary {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Services Section */
+.services {
+  padding: 60px 0;
+  background-color: #f5f5f5;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.service-box {
+  background-color: #e0f7f4;
+  padding: 30px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service-box .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+/* About Section */
+.about {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}

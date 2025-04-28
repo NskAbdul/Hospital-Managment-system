@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    flex: 1;
+  }
+
+  .left-panel {
+    flex: 1;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-panel img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .left-panel h1 {
+    margin: 10px 0;
+    font-size: 32px;
+    color: #333;
+  }
+
+  .login-box {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .login-box a {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #0077cc;
+    text-decoration: none;
+  }
+
+  .right-panel {
+    flex: 1;
+    background-color: #2f3a61;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+  }
+
+  .right-panel h2 {
+    font-size: 30px;
+  }
+
+  .right-panel p {
+    font-size: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .left-panel, .right-panel {
+      flex: none;
+      width: 100%;
+      padding: 30px;
+    }
+  }
+  
