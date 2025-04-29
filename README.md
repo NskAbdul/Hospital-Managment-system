@@ -8,7 +8,6 @@ A simple web-based Hospital Management System developed using PHP, MySQL, HTML, 
 - Patient information management
 - Appointment scheduling
 - Doctor management
-- Billing and invoicing
 - Responsive user interface
 
 ## 🛠️ Technologies Used
